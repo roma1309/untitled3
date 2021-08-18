@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF7514;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample.Sigame">
+    <children>
+        <Button fx:id="Closed" layoutX="658.0" layoutY="22.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="116.0" style="-fx-background-color: #f0f806;" text="Выйти" textAlignment="CENTER">
+            <font>
+                <Font name="Dubai Medium" size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="btn" layoutX="321.0" layoutY="483.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="160.0" style="-fx-background-color: grey;" text="ответить" textFill="#bc0b0b">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <RadioButton fx:id="radio5" layoutX="442.0" layoutY="287.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="244.0" textFill="#11050f">
+            <font>
+                <Font size="18.0" />
+            </font>
+            <toggleGroup>
+                <ToggleGroup fx:id="answers" />
+            </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="radio3" layoutX="85.0" layoutY="287.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="235.0" textFill="#11050f" toggleGroup="$answers">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="radio2" layoutX="85.0" layoutY="380.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="235.0" textFill="#11050f" toggleGroup="$answers">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </RadioButton>
+        <RadioButton fx:id="radio4" layoutX="442.0" layoutY="380.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="352.0" textFill="#11050f" toggleGroup="$answers">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </RadioButton>
+        <Button fx:id="btn1" layoutX="306.0" layoutY="336.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="151.0" style="-fx-background-color: grey;" text="Играть" textFill="#ae0f0f">
+            <font>
+                <Font name="Bodoni MT Poster Compressed" size="24.0" />
+            </font>
+        </Button>
+        <Text fx:id="Text1" fill="#7c6e6e" layoutX="67.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="667.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="113.0" fitWidth="151.0" layoutX="659.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/iconfinder_graduation-square-academic-cap-school_2824450.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="113.0" fitWidth="151.0" layoutX="28.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/iconfinder_The_Big_Bang_Theory_movie_geek_3151554.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

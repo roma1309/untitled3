@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF7514;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample.AddOne">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="600.0" layoutX="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/iconfinder_Avengers_marvel_movie_comic_book_action_3151604.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="quest" layoutX="123.0" layoutY="142.0" prefHeight="56.0" prefWidth="571.0" promptText="введите вопрос">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="ans" layoutX="103.0" layoutY="281.0" promptText="правильный ответ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ans1" layoutX="462.0" layoutY="281.0" promptText="дополнитеоьный  ответ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ans2" layoutX="111.0" layoutY="397.0" promptText="дополнитеоьный  ответ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ans3" layoutX="462.0" layoutY="397.0" promptText="дополнитеоьный  ответ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="add" layoutX="310.0" layoutY="498.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: #514668;" text="добавить" textFill="#dae820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="closed" layoutX="676.0" layoutY="14.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="116.0" text="выйти" textFill="#5a0ecc">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FF7514;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample.Create">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="600.0" layoutX="114.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/iconfinder_Avengers_marvel_movie_comic_book_action_3151604.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="add" layoutX="302.0" layoutY="335.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: grey;" text="создать" textFill="#dae820">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="closed" layoutX="300.0" layoutY="438.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: grey;" text="выйти" textFill="#d0fc0c">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+      <Button fx:id="add1" layoutX="302.0" layoutY="231.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: grey;" text="пройти тест" textFill="#dae820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="add2" layoutX="302.0" layoutY="438.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: grey;" text="назад" textFill="#dae820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="add3" layoutX="302.0" layoutY="231.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: grey;" text="продолжить" textFill="#dae820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="add4" layoutX="302.0" layoutY="335.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: grey;" text="новый" textFill="#dae820">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

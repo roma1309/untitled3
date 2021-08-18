@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sample.Controller">
+   <children>
+      <AnchorPane layoutX="184.0" layoutY="174.0" prefHeight="321.0" prefWidth="493.0">
+         <children>
+            <Button fx:id="Button1" layoutX="108.0" layoutY="90.0" mnemonicParsing="false" text="угадать фильм по кадру" textFill="#722121">
+               <font>
+                  <Font name="Britannic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Button2" layoutX="126.0" layoutY="155.0" mnemonicParsing="false" text="угадать  персонажа" textFill="#801a1a">
+               <font>
+                  <Font name="Britannic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="55.0" layoutY="28.0" text="Выберите  во что хоти те поиграть " textFill="#00ff15">
+               <font>
+                  <Font name="Bodoni MT" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="Button3" layoutX="183.0" layoutY="270.0" mnemonicParsing="false" text="выход" textFill="#831d1d">
+               <font>
+                  <Font name="Britannic Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Button4" layoutX="137.0" layoutY="213.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="166.0" text="свои тесты" textFill="#831d1d">
+               <font>
+                  <Font name="Britannic Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="191.0" layoutY="29.0" prefHeight="192.0" prefWidth="478.0" text="     Добро пожаловать " textFill="#a11e1e">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="183.0" fitWidth="191.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/image.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="250.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/1920x1200_678903_%5Bwww.ArtFile.ru%5D.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="156.0" fitWidth="225.0" layoutX="575.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/1582033655_joker_vsthemes_ru-6.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="275.0" fitWidth="181.0" layoutX="619.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/9371.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
